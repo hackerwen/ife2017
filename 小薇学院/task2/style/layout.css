@@ -1,0 +1,117 @@
+@charset "UTF-8";
+header,article,nav{
+	display:block;
+}
+*{
+	padding:0;
+	margin:0;
+} 
+body{
+	padding-left: 30px;
+	padding-right: 30px; 
+} 
+header{
+	position: relative;
+	height:60px;
+	padding-left: 40px;
+}
+header img{
+	width:130px;
+	height:50px;
+}
+header nav{
+	position: absolute;
+	right:20px;
+	top:0;
+	line-height: 60px;
+}
+header nav ul{
+	overflow: hidden;
+}
+header nav ul li{
+	float: left;
+	margin-left: 20px;
+}
+article,aside{
+	padding:30px;
+}
+article img{
+	margin:15px;
+}
+#picture ul{
+	list-style-type: none;
+}
+#picture ul li{
+	position: relative;
+	border:1px solid #aaa;
+	width: 120px;
+	height: 110px;
+	margin-bottom: 20px;
+}
+#picture img{
+	margin:0;
+	width:100px;
+	height:80px;
+	position: absolute;
+	bottom: 3px;
+	left:10px;
+}
+#picture p{
+    position: absolute;
+	top: 5px;
+}
+
+#t1 ol{
+	margin-left: 30px;
+	margin-bottom: 15px;
+	font-weight: bold;;
+}
+#t1 table{
+	border-collapse: collapse;
+	width:1000px;
+} 
+#t1 th{
+	border:1px solid #ccc;
+	color:white;
+	background-color: #000;
+}
+#t1 td{
+	border:1px solid #ccc;
+}
+#t1 tfoot{
+	background-color: #ccc;
+}
+aside h2{
+	margin-left: 20px;
+	padding:10px;
+	color: black;
+	border-left: 3px solid #ccc;
+}
+aside form{
+	padding:20px;
+}
+form #inner{
+	margin-left: 200px;
+}
+form input{
+	margin-top:10px;
+}
+form p{
+	padding-left: 95px;
+}
+form label{
+	display:inline-block;
+	margin:10px;
+}
+form textarea{
+	vertical-align:top
+}
+
+#submit{
+	display: block;
+	width:100%;
+	height:30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 10px;
+}

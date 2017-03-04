@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+	background-color:#000;
+}
+header{
+	background-color: #333;
+}
+#box{
+	background-color: #ddd;
+}
+article,aside{
+	background-color: white;
+	margin:25px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+form p{
+	color:gray;
+}
+#submit{
+	background-color: skyblue;
+}

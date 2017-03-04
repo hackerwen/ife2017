@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+	font-size: 76%;
+	font-family: "Helvetica","Arial",sans-serif;
+}
+body *{
+	font-size: 1em;
+}
+h1,h2,h3{
+	margin-bottom:15px;
+}
+h1{
+	font-size: 1.7em;
+}
+h2,h3{
+	color:#888;
+}
+h2{
+	font-size: 1.2em;
+}
+h3{
+	font-size: 1em; 
+	font-weight: normal;
+}
+header nav ul li a{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+}
+article{
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+p{
+	text-indent: 2em;
+}
+article ul{
+	margin-left: 30px;
+	list-style-type: none;
+}
+#t1 ol{
+	font-weight: bold;
+}
