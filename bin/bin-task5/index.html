@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>bin-task5</title>
+    <style>
+        .box {
+            width: 500px;
+            margin: 20px auto;
+        }
+
+        .btn {
+            display: inline-block;
+        }
+
+        .queue {
+            margin-top: 10px;
+            height: 200px;
+            /*底部对齐*/
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .stone {
+            margin-right: 5px;
+            background-color: skyblue;
+            width: 25px;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <input type="text" placeholder="请输入10-100的数字" class="num">
+
+    <div class="btn">
+        <button>左侧入</button>
+        <button>右侧入</button>
+        <button>左侧出</button>
+        <button>右侧出</button>
+        <button>排序</button>
+    </div>
+    <div class="queue">
+
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+    //定义数组
+    var allNum = [];
+    //最多60个数,每插入或删除一个数index变化
+    var index = 0;
+    //获取dom元素
+    var text = document.getElementsByTagName("input")[0];
+    var LEnter = document.getElementsByTagName("button")[0];
+    var REnter = document.getElementsByTagName("button")[1];
+    var LLeave = document.getElementsByTagName("button")[2];
+    var RLeave = document.getElementsByTagName("button")[3];
+    var sort = document.getElementsByTagName("button")[4];
+    var queue = document.getElementsByClassName("queue")[0];
+
+    window.onload = function () {
+        bindEvent();
+    }
+
+    function bindEvent() {//绑定事件函数
+
+        //左侧进同时绑定删除自身事件
+        LEnter.onclick = function () {
+            if (index > 59) {
+                alert('最多输入60个数')
+            }
+            var num = parseInt(text.value);
+            if (!isNaN(num) && typeof(num) == "number" && num >= 10 && num < 100) {
+
+                //创建元素并添加
+                createStone('left', num);
+
+                //每插入一个数index变化
+                index = index + 1;
+
+                //数组变化
+                allNum.unshift(num);
+            }
+            else {
+                alert("请输入合法数值.");
+            }
+            clearInner();
+        }
+
+        //右侧进
+        REnter.onclick = function () {
+            if (index > 59) {
+                alert('最多输入60个数')
+            }
+            var num = parseInt(text.value);
+            if (!isNaN(num) && typeof(num) == "number" && num >= 10 && num <= 100) {
+
+                //创建元素并添加
+                createStone('right', num);
+
+                //每插入一个数index变化
+                index = index + 1;
+
+                //数组变化
+                allNum.push(num);
+            }
+            else {
+                alert("请输入合法数值.");
+            }
+            clearInner();
+        }
+
+        //左侧出
+        LLeave.onclick = function () {
+            deleteStone('left');
+        }
+
+        //右侧出
+        RLeave.onclick = function () {
+            deleteStone('right');
+        }
+
+        sort.onclick = function () {
+            //console.log(allNum);  排序前数组
+            //冒泡排序
+            for (var i = 0; i < allNum.length; i++) {
+                for (var j = 0; j < allNum.length - i - 1; j++) {
+                    if (allNum[j] < allNum[j + 1]) {
+                        var temp = allNum[j];
+                        allNum[j] = allNum[j + 1];
+                        allNum[j + 1] = temp;
+                    }
+                }
+            }
+            //console.log(allNum); 排序后数组
+            queue.innerHTML = ""; //清空当前queue
+            for (var k = 0; k < allNum.length; k++) {
+                createStone('sort', allNum[k]);
+            }
+
+        }
+    }
+
+    function createStone(way, value) {
+        //创建元素
+        var stone = document.createElement("div");
+        stone.className = "stone";
+        stone.innerText = value;
+        stone.style.height = value * 1.5 + "px";
+
+        //插入元素 条件判断
+        var stones = queue.getElementsByTagName("div");
+        if (way === "right") {//如果是从右侧插入
+            queue.appendChild(stone);
+        } else {//如果是从左侧插入或是排序
+            if (stones.length > 0) {
+                queue.insertBefore(stone, stones[0]);
+            } else {
+                queue.appendChild(stone);
+            }
+        }
+        //给新添加的元素新增删除事件
+        for (var i = 0; i < stones.length; i++) {
+            var stone = stones[i];
+            stone.onclick = function () {
+                queue.removeChild(this);
+            }
+        }
+    }
+
+    function deleteStone(way) {
+        var stones = queue.getElementsByTagName("div");
+        if (stones.length == 0) {
+            alert("请先输入数值.");
+        } else if (way === "right") {
+            alert(stones[stones.length - 1].innerText)
+            queue.removeChild(stones[stones.length - 1]);
+            allNum.pop(stones.length - 1);
+        } else {
+            alert(stones[0].innerText)
+            queue.removeChild(stones[0]);
+            allNum.shift(0);
+        }
+        index = index - 1;
+    }
+
+    function clearInner() {
+        text.value = "";
+    }
+</script>
