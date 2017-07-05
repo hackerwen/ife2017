@@ -10,3 +10,5 @@
 2. 请注意代码风格的整齐、优雅
 3. 代码中含有必要的注释
 4. 建议不使用任何第三方库、框架
+
+>预览地址:https://rawgit.com/hackerwen/ife2017/master/bin/bin-task6/index.html
