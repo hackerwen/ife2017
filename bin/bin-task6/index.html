@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>bin-task6</title>
+    <style>
+        .box {
+            width: 960px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        textarea {
+            border: 1px solid skyblue;
+            border-radius: 5px;
+        }
+
+        button {
+            border: none;
+            cursor: pointer;
+            height: 20px;
+        }
+
+        button:hover {
+            background-color: skyblue;
+        }
+
+        .queue {
+            border: 1px solid #000;
+            margin: 0 auto;
+            margin-top: 10px;
+            height: 200px;
+            border: 1px solid skyblue;
+            border-radius: 5px;
+            /*底部对齐*/
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .stone {
+            margin-right: 5px;
+            background-color: skyblue;
+            width: 25px;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .found {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <textarea name="mess" class="num" placeholder="请输入10-100的数字,也可以输入多个内容，格式可以为数字、中文、英文等，通过,|，|空格 分隔." cols="100" rows="10"></textarea>
+
+    <div class="btn">
+        <button>左侧入</button>
+        <button>右侧入</button>
+        <button>左侧出</button>
+        <button>右侧出</button>
+        <button>排序(只针对数字)</button>
+        <input type="text" class=" key" placeholder="请输入查找内容">
+        <button>查找</button>
+    </div>
+    <div class="queue">
+
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+    //定义数组
+    var allNum = [];
+    //获取dom元素
+    var text = document.getElementsByTagName("textarea")[0];
+    var LEnter = document.getElementsByTagName("button")[0];
+    var REnter = document.getElementsByTagName("button")[1];
+    var LLeave = document.getElementsByTagName("button")[2];
+    var RLeave = document.getElementsByTagName("button")[3];
+    var sort = document.getElementsByTagName("button")[4];
+    var keyInput = document.getElementsByTagName("input")[0];
+    var find = document.getElementsByTagName("button")[5];
+    var queue = document.getElementsByClassName("queue")[0];
+
+    window.onload = function () {
+        bindEvent();
+    }
+
+    function bindEvent() {//绑定事件函数
+
+        //左侧进同时绑定删除自身事件
+        LEnter.onclick = function () {
+        	if(text.value==""){return};
+            var contains = text.value.split(/[,，\s]/);
+            //console.log(contains);
+            for (var i = 0; i < contains.length; i++) {
+
+                var num = parseInt(contains[i]);
+                if (!isNaN(num) && typeof(num) == "number" && num >= 10 && num < 100) {
+                    //创建元素并添加
+                    createStone('left', num);
+                    //数组变化
+                    allNum.unshift(num);
+                } else {
+                    createStone('left', contains[i]);
+                }
+            }
+            clearInner();
+        }
+
+        //右侧进
+        REnter.onclick = function () {
+        	if(text.value==""){return};
+            var contains = text.value.split(/[,，\s]/);
+            //console.log(contains);
+            for (var i = 0; i < contains.length; i++) {
+
+                var num = parseInt(contains[i]);
+                if (!isNaN(num) && typeof(num) == "number" && contains[i] >= 10 && contains[i] < 100) {
+                    //创建元素并添加
+                    createStone('right', num);
+                    //数组变化
+                    allNum.push(num);
+                } else {
+                    createStone('right', contains[i]);
+                }
+            }
+            clearInner();
+        }
+
+        //左侧出
+        LLeave.onclick = function () {
+            deleteStone('left');
+        }
+
+        //右侧出
+        RLeave.onclick = function () {
+            deleteStone('right');
+        }
+
+        sort.onclick = function () {
+            //console.log(allNum);  排序前数组
+            //冒泡排序
+            for (var i = 0; i < allNum.length; i++) {
+                for (var j = 0; j < allNum.length - i - 1; j++) {
+                    if (allNum[j] < allNum[j + 1]) {
+                        var temp = allNum[j];
+                        allNum[j] = allNum[j + 1];
+                        allNum[j + 1] = temp;
+                    }
+                }
+            }
+            //console.log(allNum); 排序后数组
+            queue.innerHTML = ""; //清空当前queue
+            for (var k = 0; k < allNum.length; k++) {
+                createStone('sort', allNum[k]);
+            }
+
+        }
+
+        find.onclick = function () {
+            var key = keyInput.value;
+            keyInput.value = "";
+            if (!isNaN(key) && typeof(key) == "number") {
+                key = parseInt(key);
+            }
+            var stones = queue.getElementsByTagName("div");
+            for (var i = 0; i < stones.length; i++) {
+                stones[i].className = "stone";
+            }
+            for (var i = 0; i < stones.length; i++) {
+                if (stones[i].innerText.indexOf(key) != -1) {
+                    stones[i].className += " found";
+                }
+            }
+        }
+    }
+
+    function createStone(way, value) {
+        //创建元素
+        var stone = document.createElement("div");
+        stone.className = "stone";
+        stone.innerText = value;
+        if (typeof(value) === "number") {
+            stone.style.height = value * 2 + "px";
+        } else {
+            stone.style.height = "100px";
+            stone.style.width = "100px";
+            stone.style.lineHeight = "100px";
+        }
+        //插入元素 条件判断
+        var stones = queue.getElementsByTagName("div");
+        if (way === "right") {//如果是从右侧插入
+            queue.appendChild(stone);
+        } else {//如果是从左侧插入或是排序
+            if (stones.length > 0) {
+                queue.insertBefore(stone, stones[0]);
+            } else {
+                queue.appendChild(stone);
+            }
+        }
+        //给新添加的元素新增删除事件
+        for (var i = 0; i < stones.length; i++) {
+            var stone = stones[i];
+            stone.onclick = function () {
+                queue.removeChild(this);
+            }
+        }
+    }
+
+    function deleteStone(way) {
+        var stones = queue.getElementsByTagName("div");
+        if (stones.length == 0) {
+            alert("请先输入数值.");
+        } else if (way === "right") {
+            alert(stones[stones.length - 1].innerText)
+            queue.removeChild(stones[stones.length - 1]);
+            allNum.pop(stones.length - 1);
+        } else {
+            alert(stones[0].innerText)
+            queue.removeChild(stones[0]);
+            allNum.shift(0);
+        }
+    }
+
+    function clearInner() {
+        text.value = "";
+    }
+</script>
