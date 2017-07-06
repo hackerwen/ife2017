@@ -27,25 +27,25 @@
 
 1. 先序遍历：
 
-    function DLR(node) { //先序遍历
-        if (node) {
-            nodeArr.push(node);
-            for (var i = 0; i < node.children.length; i++) {
-                DLR(node.children[i]);
+        function DLR(node) { //先序遍历
+            if (node) {
+                nodeArr.push(node);
+                for (var i = 0; i < node.children.length; i++) {
+                    DLR(node.children[i]);
+                }
             }
         }
-    }
 
 2. 后序遍历：若树为空，则空操作返回，否则从左到右先叶子后结点的方式遍历访问左右子树，最后访问根结点。
 
-    function LRD(node) { //后序遍历
-        if (node) {
-            for (var i = 0; i < node.children.length; i++) {
-                LRD(node.children[i]);
+        function LRD(node) { //后序遍历
+            if (node) {
+                for (var i = 0; i < node.children.length; i++) {
+                    LRD(node.children[i]);
+                }
+                nodeArr.push(node);
             }
-            nodeArr.push(node);
         }
-    }
 
 最后我们得到了按照遍历顺序排序的数组，再进行处理，代码如下
 
