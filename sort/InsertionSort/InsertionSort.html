@@ -17,7 +17,7 @@
     for (var i = 1; i < arr.length; i++) {
         current = arr[i];
         preIndex = i - 1;
-        while (preIndex >= 0 && arr[preIndex] > current) {
+        while (preIndex >= 0 && arr[preIndex] > current) {//如果比current数值大 则后退一位
             arr[preIndex + 1] = arr[preIndex];
             preIndex--;
         }

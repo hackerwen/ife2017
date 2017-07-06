@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b32e551-e86e-4f8e-bf0d-353d8407de87" name="Default" comment="insertion sort">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sort/InsertionSort/InsertionSort.html" afterPath="$PROJECT_DIR$/sort/InsertionSort/InsertionSort.html" />
     </list>
     <ignored path="ife2017.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="InsertionSort.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sort/InsertionSort/InsertionSort.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8333333">
+            <state vertical-scroll-proportion="0.875">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
@@ -71,6 +71,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -202,7 +205,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../music/musiconline/SoulBeatsOnline1.1" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -339,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/InsertionSort/InsertionSort.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8333333">
+        <state vertical-scroll-proportion="0.875">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
