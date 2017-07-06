@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>bin-task8</title>
+    <style>
+        div {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            border: 3px solid #000;
+            width: 50%;
+            height: 80%;
+            padding: 10px;
+            margin: 5px;
+            background-color: #fff;
+            border-radius: 4px;
+            color: black;
+        }
+
+        div.active {
+            background-color: #000;
+            color: white;
+        }
+
+        div.btn {
+            border: none;
+            margin: 0 auto;
+        }
+
+        button {
+            border: 2px solid green;
+            border-radius: 4px;
+            background-color: #fff;
+            margin: 10px;
+        }
+
+        #root {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="root" id="root">
+    <span>111</span>
+
+    <div class="levelOne">
+        <span>222</span>
+
+        <div class="levelTwo">
+            <span>333</span>
+
+            <div class="levelThree">李白</div>
+            <div class="levelThree">杜甫</div>
+        </div>
+        <div class="levelTwo">
+            <span>444</span>
+
+            <div class="levelThree">白居易</div>
+            <div class="levelThree">王维</div>
+            <div class="levelThree">辛弃疾</div>
+            <div class="levelThree">赵佶</div>
+        </div>
+    </div>
+    <div class="levelOne">
+        <span>555</span>
+
+        <div class="levelTwo">
+            <span>666</span>
+
+            <div class="levelThree">陈子昂</div>
+            <div class="levelThree">曹植</div>
+        </div>
+        <div class="levelTwo">
+            <span>777</span>
+
+            <div class="levelThree">李清照</div>
+            <div class="levelThree">杨万里</div>
+            <div class="levelThree">岳飞</div>
+        </div>
+        <div class="levelTwo">
+            <span>888</span>
+
+            <div class="levelThree">刘禹锡</div>
+            <div class="levelThree">司马相如</div>
+        </div>
+    </div>
+</div>
+<div class="btn">
+    <button class="DLR">先序遍历</button>
+    <button class="LRD">后序遍历</button>
+    <input class="text" type="text" placeholder="请输入查询内容"/>
+    <button class="search">查询</button>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+    /* 难点：递归不一定需要返回值 运行完了结束即可*/
+
+    var DLRbtn = document.querySelector('.DLR');
+    var LRDbtn = document.querySelector('.LRD');
+    var searchBtn = document.querySelector('.search');
+    var text = document.querySelector('.text');
+    var rootNode = document.querySelector('.root')
+    var nodeArr = [];//将节点存入数组 最后统一加样式
+
+    window.onload = function () {
+        bindEvent();
+    }
+
+    function bindEvent() {
+        DLRbtn.onclick = function () {
+            nodeArr = [];//点击时清空数组 初始化遍历
+            DLR(rootNode);
+            //console.log(nodeArr);
+            activeNode(nodeArr);
+        };
+        LRDbtn.onclick = function () {
+            nodeArr = [];
+            LRD(rootNode);
+            activeNode(nodeArr);
+        }
+
+        searchBtn.onclick = function () {
+            var str = text.value;
+            nodeArr = [];
+            DLR(rootNode);//先遍历一遍
+            search(str, nodeArr);
+        }
+    }
+
+    function DLR(node) { //先序遍历
+        if (node) {
+            nodeArr.push(node);
+            for (var i = 0; i < node.children.length; i++) {
+                DLR(node.children[i]);
+            }
+        }
+    }
+
+    function LRD(node) { //后序遍历
+        if (node) {
+            for (var i = 0; i < node.children.length; i++) {
+                LRD(node.children[i]);
+            }
+            nodeArr.push(node);
+        }
+    }
+
+    function activeNode(arr) { //样式处理
+        for (let i = 0; i < arr.length; i++) {
+            setTimeout(function () {
+                for (let j = 0; j < arr.length; j++) {
+                    arr[j].className = "";
+                }
+                arr[i].className += " active";
+            }, i * 500)//i*500  给定时器创造时间间隔
+        }
+    }
+
+    function search(str, arr) { //找到对应的节点 记住下标
+
+        var index;
+
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i].nodeName = "SPAN") {
+                var text = arr[i].innerText;
+            } else {
+                var text = arr[i].children[0].innerText;
+            }
+            if (text === str) {
+                index = i;
+            }
+        }
+
+        for (let i = 0; i < index; i++) {
+            setTimeout(function () {
+                for (let j = 0; j < arr.length; j++) {
+                    arr[j].className = "";
+                }
+                arr[i].className += " active";
+            }, i * 500)//i*500  给定时器创造时间间隔
+        }
+
+        setTimeout(function () {
+            alert('found it!')
+            arr[index].className += " active";
+        }, 500 * index);
+    }
+</script>
