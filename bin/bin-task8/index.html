@@ -167,17 +167,13 @@
         var index;
 
         for (let i = 0; i < arr.length; i++) {
-            if (arr[i].nodeName = "SPAN") {
-                var text = arr[i].innerText;
-            } else {
-                var text = arr[i].children[0].innerText;
-            }
+            var text = arr[i].innerText;
             if (text === str) {
                 index = i;
             }
         }
 
-        for (let i = 0; i < index; i++) {
+        for (let i = 0; i <index; i++) {//针对span的内容 让其前一个div加上active 
             setTimeout(function () {
                 for (let j = 0; j < arr.length; j++) {
                     arr[j].className = "";
@@ -188,7 +184,8 @@
 
         setTimeout(function () {
             alert('found it!')
-            arr[index].className += " active";
+            arr[index].className += " active"; //如果是div的内容 给div补充
+            console.log(arr[index]);
         }, 500 * index);
     }
 </script>
