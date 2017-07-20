@@ -17,7 +17,6 @@
 语法：
 
     Object.defineProperty(obj, prop, descriptor)
-
 此方法接受三个参数：
 
 * obj:目标对象
@@ -31,7 +30,6 @@
         value=123;
     })
     console.log(obj.b);//123
-
 可以知道，我们接下来都是在descriptor（get与set）上做文章。
 
 来看看descriptor可以定义属性的那些特性：
@@ -59,7 +57,6 @@
         writable:false,//newKey属性值不可写
         enumerable:true//newKey属性可枚举
     });
-
 以上四个值定义了属性的特性，想要深入的同学请翻阅红宝书或者参考资料。
 
 我们真正的重点在descriptor的get和set（存取器），（注：当使用了getter或setter方法，不允许使用writable和value这两个属性）。
@@ -70,20 +67,20 @@
 
 在特性中使用get/set属性来定义对应的方法,笔者理解更像是一个回调函数，当获取值或是设置值后会触发相应方法。
 
-    object.defineProperty(obj, key, {
+    Object.defineProperty(obj, key, {
         enumerable: true,
         configurable: true,
         get(){
-            console.log('你访问了' + key)
+            console.log('你访问了' + key);
+            return obj[key];//注意要return
         },
         set(newVal){
             console.log('你设置了' + key);
             console.log('新的' + key + '=' + newVal);
-            if (newVal === val)return;
-            val = newVal;
+            if (newVal === obj[key])return;
+            obj[key] = newVal;
         }
     })
-
 有了set和get就容易了，我们只需要使用Object.defineProperty()对每一个属性都设置set和get方法，每次属性值变动的时候我们就可以检测一个普通对象的变化了。
 
 完整代码如下:
@@ -138,7 +135,6 @@
     };
     new Observer(obj);
     console.log(obj);//现在可以去控制台做有趣的事情啦
-
 建议大家把我上面列的参考资料好好看一下，我只是总结了一下，资料里面非常详细哈。
 
 如果你喜欢这篇文章那就给我一个喜欢- -!!吧！
