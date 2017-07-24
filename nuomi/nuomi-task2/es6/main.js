@@ -13,7 +13,7 @@ class Observer {
             if (obj.hasOwnProperty(key)) {
                 val = obj[key];
                 //如果属性还是一个对象，进行递归
-                if(Object.prototype.toString.call(val) === '[object Object]'){
+                if (Object.prototype.toString.call(val) === '[object Object]') {
                     new Observer(val);
                 }
                 //为每一个属性添加getter以及setter
@@ -40,7 +40,7 @@ class Observer {
     }
 }
 
-let obj  = {
+let obj = {
     user: {
         name: "zac",
         age: "20"
@@ -50,6 +50,11 @@ let obj  = {
     }
 };
 
-new Observer(obj);
+let app1 = new Observer(obj);
+/*
+ app1.data.user.name; // 你访问了 name
+ app1.data.user.age = 100;  // 你设置了 age，新的值为100
+ */
 
-console.log(obj);
+obj.user.name;
+obj.user.age = 100;
