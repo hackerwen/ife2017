@@ -1,0 +1,61 @@
+{
+	"keyword": "javascript",
+	"code": 1,
+	"time": 881,
+	"msg": "抓取成功",
+	"dataList": [
+		{
+			"info": "\nJavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早...\n组成部分 基本特点 日常用途 历史 特性 编程 版本 更多>>\nbaike.baidu.com/  - \n",
+			"link": "http://www.baidu.com/link?url=RtQAWuVIDi3ArvSFwD2VJyhtrv2H7cYFHK6YXHQh81PgC_4Q_Gv9E1hdtlCg7fOI4-0HkUywpmSfcY1SWTLA-aWxkemuHuAhbFOYn3Jnr2q",
+			"pic": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2297223156,1299390734&fm=58&bpow=666&bpoh=403&u_exp_0=2110244052,982623601&fm_exp_0=86",
+			"title": "javascript_百度百科"
+		},
+		{
+			"info": "JavaScript 是属于网络的脚本语言! JavaScript 被数百万计的网页用来改进设计、验证表单、检测浏览器、创建cookies,以及更多的应用。 JavaScript 是因特网上最流行的...",
+			"link": "http://www.baidu.com/link?url=quKGLuLygsWtJKg7NpnC4lhN6S9y1_qvAvTBpmLcjFu48mWySugE-4SAFUBYEiXi",
+			"title": "JavaScript 教程"
+		},
+		{
+			"info": "JavaScript 教程 JavaScript 是 Web 的编程语言。 所有现代的 HTML 页面都使用 JavaScript。 JavaScript 非常容易学。 本教程将教你学习从初级到高级JavaScript知识。 ...",
+			"link": "http://www.baidu.com/link?url=nDFr5K8wLG1vQcA9F4BbOCkAmBSYs6EigtOJjfCs2TxUqVVWYoMRYNbVY13VY8cmHa1pfYesEwlMvvCD_VNY7_",
+			"title": "JavaScript 教程 | 菜鸟教程"
+		},
+		{
+			"info": "研究互联网产品和技术,提供原创中文精品教程... 这是小白的零基础JavaScript全栈教程。JavaScript是世界上最流行的脚本语言,因为你在电脑、手机、平板上浏览的所有的网页...",
+			"link": "http://www.baidu.com/link?url=kPzW4Pxzf5UZ5ktQtrg2SzgAYfbSL7d6QY-p5nEjPrNcpH67t6fl-W81q6D34xgM4f4oUCGTG2Q_LImfW4MLPpHGX0XkihWvvTmNJlr7yeottIIsrZcoFbfRFslnuv9u",
+			"title": "JavaScript教程 - 廖雪峰的官方网站"
+		},
+		{
+			"info": "来源:博客 标签:javascriptcanvashtml5 该信息由 bboyjoe贡献 JavaScript 工具源码下载 javascript模式 来源:下载 标签:javascript设计模式代码优化 该信息由 劲吻贡...",
+			"link": "http://www.baidu.com/link?url=-Y-oxxap3v_pi8wiuW_Ph6-snt8kJuCzpkZiLKDMMSUYYvOadb8SV4BW66GTg5SG",
+			"title": "【JavaScript】JavaScript开发,JavaScript资源下载-CSDN.NET"
+		},
+		{
+			"info": "本部分提供完整的 JavaScript 参考手册: JavaScript 本地对象和内置对象 Browser 对象(BOM) HTML DOM 对象JavaScript 对象参考手册 本参考手册描述每个对象的属性和...",
+			"link": "http://www.baidu.com/link?url=9PiRKkQmE-c2A2ImiqQ4WEr2LIx5dC3uPxMgC1w_LRwi8UEm49JTXZDFj7wDt7Zl6s1v-D91sr-S4Ouf5PxtQK",
+			"title": "JavaScript 参考手册"
+		},
+		{
+			"info": "本部分将专注于 JavaScript 语言本身,而非局限于网页或其他宿主环境。想要了解网页有关的 APIs ,请参考 Web APIs 以及 DOM 。",
+			"link": "http://www.baidu.com/link?url=XXhtan-9KC3NVPxkd5o2Zn3bxKLMAoB-6tvhOwLqwjfSGxi9Ioj6yGuEDY_s1SnE1Rru-Pj6zuAhSa3F3ovrlQxBRIAy5k3dmBLjCuFfWCC",
+			"title": "JavaScript | MDN"
+		},
+		{
+			"info": "\n7千人在学4课\nJavaScript、jQuery高级网页...\n\n2千人在学32课\n智能社：JavaScript教程——...\n\n978人在学3课\nJavaScript\n\n849人在学59课\nJavaScript\n更多课程：查看全部65门课程>>\n",
+			"link": "http://www.baidu.com/link?url=UagRPMJI9LcWZ3vFzvlHn6bwahwVOedD5rbQaG8o8RPjHSOSE3gYrbuK5s_z0hWLUY_KEWRh5ND5E8hIlkRWMY3aQtwJCNA9Jd-DAovlJTEGXeRHQXw13Em3_8UdtW3ulJii7AsRIJ1XVOzfNO-HIq",
+			"pic": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1352228530,26930275&fm=58",
+			"title": "javascript_高清视频课程_入门到精通_百度传课"
+		},
+		{
+			"info": "JavaScript是一种基于对象和事件驱动并具有相对安全性的客户端脚本语言。同时也是一种广泛用于客户端Web开发的脚本语言,常用来给HTML(标准通用标记语言的子集)网页添加...",
+			"link": "http://www.baidu.com/link?url=9xvECsMIk_lEgrCuG_hYkubssCWvQpkaBLKyrSWg6fJodht0TSrwpwzoijQjWNBz",
+			"title": "JavaScript-脚本之家"
+		},
+		{
+			"info": "\nJavaScript中文网是一家以JavaScript资源分享为主的专业网站,面向JavaScript爱好人员提供:最新JavaScript资讯、原创内容、Ajax、jQuery、node.js及JavaScriptPDF等相关电子书...\nwww.javascriptcn.com/  - 百度快照\n",
+			"link": "http://www.baidu.com/link?url=ymIJc1GA4CCFKKiPPO-4PBR4ri8bgnGFW9839ufkBUgb7S2ytIP7TuoV0Z6VDR1m",
+			"pic": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=95584070,2251064812&fm=58&s=0DA05D328F805D43424DB0C60000E0B3",
+			"title": "Javascript中文网-Javascript教程资源分享门户"
+		}
+	]
+}
