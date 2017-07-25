@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Examples</title>
+	<style>
+		.wrapper{
+			width:200px;
+			height:125px;
+			margin:100px auto;
+			position: relative;
+			transform-style: preserve-3d;/*切记不能漏*/
+			animation: roll 16s linear infinite;
+		}
+		.wrapper img{
+			position: absolute;
+			width:200px;
+			height:125px;
+		}
+		.wrapper img:nth-child(1){
+			transform: rotateY(0deg) translateZ(225px);
+		}
+		.wrapper img:nth-child(2){
+			transform: rotateY(60deg) translateZ(225px);
+		}
+		.wrapper img:nth-child(3){
+			transform: rotateY(120deg) translateZ(225px);
+		}
+		.wrapper img:nth-child(4){
+			transform: rotateY(180deg) translateZ(225px);
+		}
+		.wrapper img:nth-child(5){
+			transform: rotateY(240deg) translateZ(225px);
+		}
+		.wrapper img:nth-child(6){
+			transform: rotateY(300deg) translateZ(225px);
+		}
+		@keyframes roll{
+			0%{
+				transform: rotateX(-10deg) rotateY(0deg);
+			}
+			100%{
+				transform: rotateX(-10deg) rotateY(360deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<img src="./img/item_1.jpg" alt="">
+		<img src="./img/item_2.jpg" alt="">
+		<img src="./img/item_3.jpg" alt="">
+		<img src="./img/item_4.jpg" alt="">
+		<img src="./img/item_5.jpg" alt="">
+		<img src="./img/item_6.jpg" alt="">
+	</div>
+</body>
+</html>
