@@ -1,11 +1,12 @@
-### PhantomJS 简介及使用
-1. 用途
-2. 网页自动控制
-3. 网络监控
-4. 获取网页截图
-5. 无头测试
+### 网页抓取分析服务系列之一（基础分析）
 
-#### webpage模块
+#### PhantomJS 简介及使用
+1. 网页自动控制
+2. 网络监控
+3. 获取网页截图
+4. 无头测试
+
+##### webpage模块
 
 * open()
 
@@ -118,7 +119,7 @@ render方法用于将网页保存成图片，参数就是指定的文件名。�
 
 该方法还可以接受一个配置对象，format字段用于指定图片格式，quality字段用于指定图片质量，最小为0，最大为100。
 
-#### system模块
+##### system模块
 
 system模块可以加载操作系统变量，system.args就是参数数组。
 
@@ -149,7 +150,7 @@ system模块可以加载操作系统变量，system.args就是参数数组。
 
     $ phantomjs page.js http://www.google.com
 
-#### 应用
+##### 应用
 
 * 加载网页 page.js
 
@@ -168,7 +169,7 @@ system模块可以加载操作系统变量，system.args就是参数数组。
 
 *  测试加载速度 loadspeed.js
 
-？
+.
 
     // address 不能少了 http 协议
     var page = require('webpage').create(),

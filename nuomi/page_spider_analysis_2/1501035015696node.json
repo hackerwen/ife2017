@@ -1,0 +1,59 @@
+{
+	"keyword": "node",
+	"device": "{\"width\":\"768\",\"height\":\"1024\",\"ua\":\"Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1\"}",
+	"code": 1,
+	"time": 863,
+	"msg": "抓取成功",
+	"dataList": [
+		{
+			"info": "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型,使其轻量又高效。Node.js 的包管理器 npm,...",
+			"link": "http://www.baidu.com/link?url=twMh3NELzhMyMgJ-W7j7poQ-J_a9VoszasZpfdQkXIS",
+			"title": "Node.js 中文网"
+		},
+		{
+			"info": "查看此网页的中文翻译，请点击 翻译此页",
+			"link": "http://www.baidu.com/link?url=tF3OPKdsIjzm45Gz4aQf366mDUvTmhRJ1J8cQBGee-G",
+			"title": "nodejs"
+		},
+		{
+			"info": "查看此网页的中文翻译，请点击 翻译此页",
+			"link": "http://www.baidu.com/link?url=i71ezWTRor_oE7kJgRoondXDd3ZXlSmlutlE2ccouQRJj4Inijid9PHGp9wp-7OU",
+			"title": "Download | Node.js"
+		},
+		{
+			"info": "node\t英[nəʊd]\t美[noʊd]\nn.\t节点; （计算机网络的）节点; [医]结节; 植物的节\n[例句]\tCut them off cleanly through the stem just below the node.\n就从茎节下面，沿茎干把它们全砍掉。\n更多示例用法>>\n",
+			"link": "http://www.baidu.com/link?url=pIjrILirJ37S9O5iH8HR_QJh5KG7K4yqUvsZjzjDIQcNIAEwKmRgEuCfEvsLVB1t",
+			"title": "node_百度翻译"
+		},
+		{
+			"info": "Node.js 教程 简单的说 Node.js 就是运行在服务端的 JavaScript。 Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。 Node.js是一个事件驱动I/O...",
+			"link": "http://www.baidu.com/link?url=HeRiQ5v_iCwTq5OWfPsQ60-0Fol_altr-DwQlMqmK4LBDbIMtpVldKCCpqy2Quib4acCtlWRvK8kskdJnzQub_",
+			"title": "Node.js 教程 | 菜鸟教程"
+		},
+		{
+			"info": "CNode 社区为国内最专业的 Node.js 开源技术社区,致力于 Node.js 的技术研究。 服务器赞助商为 ,存储赞助商为 ,由 提供应用性能服务。 新手搭建 Node.js 服...",
+			"link": "http://www.baidu.com/link?url=otWITcDzJjuueiOVWiynhgk9oOhaRWB5a3AZ1GSfQve",
+			"title": "CNode:Node.js专业中文社区"
+		},
+		{
+			"info": "Node.js是目前非常火热的技术,但是它的诞生经历却很奇特。 众所周知,在Netscape设计出JavaScript后的短短几个月,JavaScript事实上已经是前端开发的唯一标准。 后来,...",
+			"link": "http://www.baidu.com/link?url=HPp8ChWjQyBYW34jTAu5FuoToIsdYME6YllVDDigBm1bvTcyDM_RTYPFRv0ZRuIwXFdsyVWGl6PmbZZQoarxgvoPlOjjT0GPASsmhnNBNK7Ms1edWig6EHBqqkyd7VdO9BM_KLic9aiyx083Pirc3qLtuPsQyMPNR8VduhmHEfyiOhnZ5ZIZM0eUen2YM0-_",
+			"title": "Node.js - 廖雪峰的官方网站"
+		},
+		{
+			"info": "node（结点）:网络连接的端点，或两条（或多条）线路的连接点。结点可以是处理器、控制器或工作站。结点随其功能不同而各不相同，他们可以通过链路互联在一起，...\n基本信息 其他涵义 数据结构\nbaike.baidu.com/ - \n",
+			"link": "http://www.baidu.com/link?url=-hgVPamRZ1psM3QcqjYTayDCZvry3kSi2r0L8Ke1F6vvk6fqVCRAuJa6mzsbdFJujYGzBiShmNO28RTP4JqELK",
+			"title": "node_百度百科"
+		},
+		{
+			"info": "CNode 社区为国内最专业的 Node.js 开源技术社区,致力于 Node.js 的技术研究。 服务器赞助商为 ,存储赞助商为 ,由 提供应用性能服务。 新手搭建 Node.js 服...",
+			"link": "http://www.baidu.com/link?url=wslFse9A3boqPYvlJHfWpWonInd_kBDFwc15S_bn1Qa6fqVe4q2Bci6M18V-3jei",
+			"title": "Node.js 新手入门 - CNode技术社区"
+		},
+		{
+			"info": "2016年4月6日 - 对nodeJS早有耳闻,但是一直迟迟没有对它下手,哈哈哈,今儿咱就来初探一下它。 nodeJS是个啥东东? nodeJS,我的理解就是可以运行在后端的JavaScript。 为...",
+			"link": "http://www.baidu.com/link?url=dpdd6d1JFhUY2sD7ODhgkgtRhc8Re2SyEvpykH8NGtTZOwFq_WUFc6tEd0c9WU3eZ-yQPMXPbFdFCU6ufkvh0a",
+			"title": "初探nodeJS - 猴子猿 - 博客园"
+		}
+	]
+}
