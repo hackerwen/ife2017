@@ -1,0 +1,63 @@
+{
+	"keyword": "mongodb",
+	"device": "ipad",
+	"code": 1,
+	"time": 1450,
+	"msg": "抓取成功",
+	"dataList": [
+		{
+			"info": "查看此网页的中文翻译，请点击 翻译此页",
+			"link": "http://www.baidu.com/link?url=W3B9kuzyr6yvj6b2xobBagY3vFAemDVg84JEwPkDJMOAmMs0ev1IeDN7kmxYgfz0",
+			"pic": "no pic",
+			"title": "MongoDB for GIANT Ideas | MongoDB官网"
+		},
+		{
+			"info": "MongoDB 教程 MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。 MongoDB 是一个介于关系数据库...",
+			"link": "http://www.baidu.com/link?url=yplQi94ccIB5Dthjvb1sSVuA43iGmmqE5WsJIcXkGvJhz9siilSr8TUdBLzTmJhinSFNv5gU3RT_nkXNINKj3K",
+			"pic": "no pic",
+			"title": "MongoDB 教程 | 菜鸟教程"
+		},
+		{
+			"info": "\n                        \n                                                                            \n                            \n                    MongoDB是一个基于分布式文件存储的数据库。由C++语言编写。旨在为WEB应用提供可扩展的高性能数据存储解决方案。 MongoDB是一个介于关系数据库和非关系数据库之...   \n                \n                            \n                               \n                \n                                                                                                                             简介\n                                                                                                         特点\n                                                                                                         使用原理\n                                                                                                         系统介绍\n                                                                                                         实际应用\n                                                                                                         版本发布\n                                                                                                         数据开发\n                                                                                                         设计特征\n                                                                                                         更多>>\n                                        \n                                                                        baike.baidu.com/   -  \n        \n            \n    ",
+			"link": "http://www.baidu.com/link?url=Q5udVutk0dAyKjZkVThY13nqh5g5KCUhGCKyBzVgHdIwlmf24ZRyND_jYliLozUZkdz5b5I3_IrB80W2X1ABja",
+			"pic": "no pic",
+			"title": "\n        mongodb_百度百科\n        "
+		},
+		{
+			"info": "2007年5月20日 -  MongoDB Enterprise is available as part of the MongoDB Enterprise Advanced subscription, which features the most comprehensive support for ...",
+			"link": "http://www.baidu.com/link?url=S8s1we0Me-zK_pA9tgWEKRK4Ax563OzlbJ7_xn4LRxslCNmVqn2ZmMzHDbwolnuz",
+			"pic": "no pic",
+			"title": "MongoDB Download Center | MongoDB"
+		},
+		{
+			"info": "MongoDB是一个介于关系数据库和非关系数据库之间的产品,是非关系数据库当中功能最丰富,最像关系数据库的。他支持的数据结构非常松散,是类似json的bson格式,因此可以...",
+			"link": "http://www.baidu.com/link?url=0DnDY8FXJGqpd7pLPaaFZEGklqMc5WI-kRseoCY5zyOvvx1LUs6RKMq3kNEaxDBT",
+			"pic": "no pic",
+			"title": "MongoDB教程™"
+		},
+		{
+			"info": "MongoDB是一个介于关系数据库和非关系数据库之间的产品,是非关系数据库当中功能最丰富,最像关系数据库的。他支持的数据结构非常松散,是类似json的bjson格式,因此...",
+			"link": "http://www.baidu.com/link?url=xSbaB7dSGq2WY9GMVVxtNNx94aRcBrfpCgt1DQjAYJSSmepvtShX7wVl2XZBw0CJ",
+			"pic": "no pic",
+			"title": "MongoDB首页、文档和下载 - 分布式文档存储数据库 - 开源中国社区"
+		},
+		{
+			"info": " 7月16日,上海热爱MongoDB的小伙伴们顶着烈日来到了平安大厦,参加Mongoing中文社区上海用户组的线下活动。 此次活动由Mongoing中文社区和MongoDB官方培训授权方海量...",
+			"link": "http://www.baidu.com/link?url=hBLnwyopLuJxSBDNre_MzgRiXgtjtMjdA4xv5pp_J1x8GjFUDdK3-z5lbYjxzqyJ",
+			"pic": "no pic",
+			"title": "MongoDB中文社区 | 中文社区"
+		},
+		{
+			"info": "2017年2月13日 -  当然是 MongoDB 公司推出的免费在线课程 MongoDB University。这是关于 MongoDB 最好的在线教程,没有之一,权威、系统并且更新及时。可以告诉你的是,M...",
+			"link": "http://www.baidu.com/link?url=E6R2x8m7IpQCEA5p3rhvmCq-OYSk9mYwyjz8HEg9uwlG4yrAhL9seB0d1p0bOrPP5piPrTYiPqn-0YSlF0kcua",
+			"pic": "no pic",
+			"title": "怎样学 MongoDB? - 知乎"
+		},
+		{
+			"info": "2011年11月10日 - 某人发了一篇《Don’t use MongoDB》的血泪控诉,我把原文翻译如下,你可以看看。不过,我想我们还要去看看10gen CTO的对此事的回复,我们还要去在Reddit...",
+			"link": "http://www.baidu.com/link?url=i0k-bZ9Dtu7x55jH88pxUPOZQBTECOB9al-3Nh84R6x31dIvD4DAKCjksoJ7q_j8",
+			"pic": "no pic",
+			"title": "千万别用MongoDB?真的吗? - 文章 - 伯乐在线"
+		}
+	]
+}
