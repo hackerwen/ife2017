@@ -1,5 +1,3 @@
-### 网页抓取分析服务系列之三（服务封装）
-
 #### 任务目的
 1. 学习NodeJS HTTP模块
 2. 学习NodeJS和本地进程的互动
@@ -33,7 +31,7 @@
 
 思路很简单：
 
-1. 用node起一个http server，就访问localhost通过get方法在地址栏传关键字和设备名城区过去，因为http和url模块解析url太麻烦，所以使用了express，比较方便就可以取出参数。
+1. 用node起一个http server，就访问localhost通过get方法在地址栏传关键字和设备名参数过去，因为http和url模块解析url太麻烦，所以使用了express，比较方便就可以取出参数。
 2. 使用child_process模块的exec方法，拼接命令行启动phantomjs，让phantomjs去爬，爬完了将数据返回node
 3. 将返回的数据存入数据库
 
@@ -42,10 +40,34 @@
 ##### 遇到的问题
 
 1. 用phantomjs爬虫的时候最开始用的原生js操作dom,后来发现当改变设备的时候dom树也变了，就不能愉快的爬虫了。这时候发现可以用page.includeJs函数引入外部js，当然就要用jquery啦，我的jquery锋利锋利最锋利。然而includeJs的回调函数一直不执行，，原来这是一个异步操作，如果你在外面写了一个phantomjs.exit(),那你的jq还在加载的时候尚未进入回调操作dom，就直接运行到后面退出了phantomjs，所以phantomjs.exit()应当写在includejs回调函数内部。
-2. 前面我们说了，当phantomjs爬虫爬完后，我们log一下整理好的json字符串，就可以被node的exec的回调函数获取(stdout)，然后就可以愉快的parse一下通过mongoose存入数据库啦，但是发现parse一直报错，说这个不是一个合法的json文件，然后就log了一下stdout，发现第一行是includeJs的log信息，就是jquery成功载入啦！然后我们的json字符串就没有那么的"json"了，试了很多方法，截取、正则替换、不知道为啥就是不能取出后半部分的json，发现stdout是个标准输出流，又去各种搜索，始终没有找到一个较好的处理stdout的方法，主要是我Node水平太差了，没有系统学习过，唉。后面不得已删除了includeJs，乖乖用原生js。
+includeJs方法用于页面加载外部脚本，加载结束后就调用指定的回调函数。
+<pre>
+    var page = require('webpage').create();
+    page.open('http://www.sample.com', function() {
+    page.includeJs("http://path/to/jquery.min.js", function() {
+      page.evaluate(function() {
+        $("button").click();
+      });
+      phantom.exit()
+    });
+    });
+</pre>
+上面的例子在页面中注入jQuery脚本，然后点击所有的按钮。需要注意的是，由于是异步加载，所以phantom.exit()语句要放在page.includeJs()方法的回调函数之中，否则页面会过早退出。
 
+2. 前面我们说了，当phantomjs爬虫爬完后，我们log一下整理好的json字符串，就可以被node的exec的回调函数获取(stdout)，然后就可以愉快的parse一下通过mongoose存入数据库啦，但是发现parse一直报错，说这个不是一个合法的json文件，然后就log了一下stdout，发现第一行是includeJs的log信息，就是jquery成功载入啦！然后我们的json字符串就没有那么的"json"了，试了很多方法，截取、正则替换、不知道为啥就是不能取出后半部分的json，发现stdout是个标准输出流，又去各种搜索，始终没有找到一个较好的处理stdout的方法，主要是我Node水平太差了，没有系统学习过，唉。后面不得已删除了includeJs，乖乖用原生js。
+<pre>
+    var exec = require('child_process').exec;
+    var cmdStr = 'phantomjs task.js ';
+    exec(cmdStr + queryObj.word + ' ' + queryObj.device, function(err, stdout, stderr){
+         if(err) {
+             console.error(`exec error: ${error}`);
+         } else {
+         // todo
+         }
+    }
+</pre>
 ##### 收获
 
-1. 了解到node不仅仅是用库，那些基础概念需要深入了解。
-2. 学习了mongodb的安装，启动以及mongoose的初步使用，知道了如何插入数据。初步理解了schema/model的概念。
-3. 原来一直觉得用工具没有竞争力，现在突然觉得能把各种工具有机的结合在一起发挥生产力也是非常优秀的能力。
+ *  了解到node不仅仅是用库，那些基础概念需要深入了解。
+ *  学习了mongodb的安装，启动以及mongoose的初步使用，知道了如何插入数据。初步理解了schema/model的概念。
+ *  原来一直觉得用工具没有竞争力，现在突然觉得能把各种工具有机的结合在一起发挥生产力也是非常优秀的能力。
