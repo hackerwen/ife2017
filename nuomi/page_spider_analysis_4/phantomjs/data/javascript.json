@@ -1,0 +1,75 @@
+{
+	"keyword": "javascript",
+	"device": "iphone5",
+	"code": 1,
+	"time": 1514,
+	"msg": "抓取成功",
+	"dataList": [
+		{
+			"info": "简介：JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。在1995年时，由Netscape公司的Brendan Eich，在网景导航者浏览器上首次设计实现而成。因为Netscape与Sun合作，Netscape管理层希望它外观看起来像Java，因此取名为JavaScript。但实际上它的语法风格与Self及Scheme较为接近。为了取得技术优势，微软推出了JScript，CEnvi推出ScriptEase，与JavaScript同样可在浏览器上运行。为了统一规格，因为JavaScript兼容于ECMA标准，因此也称为ECMAScript。",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=9306870089873933625&order=1&waplogo=1&fm=albk&tj=Xv_1_0_10_title&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=b28463f1a792d365&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IJBOMLikK1De8mVjte4viZQRAWyPqLTrIBUvssm3RgdtMgDCu0VAp7xF_qK-6sFttmWja9_7oscHKV1m",
+			"pic": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1501149154&di=7d6f7e4e93dfd8e257f36adada68b03b&src=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2110244052%2C982623601%26fm%3D86%26bpow%3D666%26bpoh%3D403%26u_exp_0%3D2110244052%2C982623601%26fm_exp_0%3D86",
+			"title": "javascript_百度百科"
+		},
+		{
+			"info": "JavaScript 教程 JavaScript 是 Web 的编程语言。 所有现代的 HTML 页面都使用 JavaScript。 JavaScript 非常...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=9306870089873933625&order=2&fm=alop&waplogo=1&tj=www_normal_2_0_10_title&vit=osres&waput=2&cltj=normal_title&asres=1&title=JavaScript%E6%95%99%E7%A8%8B%7C%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B&dict=-1&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=c4e1010029927e03&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IGtiDQCBL0Tj5nk_qva02GcMfEFX-QzKCFlH7tme4fQ2NhCn8",
+			"pic": "no pic",
+			"title": "JavaScript 教程 | 菜鸟教程"
+		},
+		{
+			"info": "JavaScript 对象参考手册 本参考手册描述每个对象的属性和方法,并提供实例。 Array Boolean Date Math Number ...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=3/tc?ref=www_iphone&lid=9306870089873933625&order=3&fm=alop&tj=www_normal_3_0_10_title&vit=osres&m=8&srd=1&cltj=cloud_title&asres=1&title=JavaScript%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C&dict=30&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=a5ee0db9c35c5f37&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_zcHATm7ok_rxP4kHRhdXHKhVnGJEUDvgTCc",
+			"pic": "no pic",
+			"title": "JavaScript 参考手册"
+		},
+		{
+			"info": "这是小白的零基础JavaScript全栈教程。JavaScript是世界上最流行的脚本语言,因为你在电脑、手机、平板上浏览的所有的网页,以及无数基于HTML5的手机App,交互逻辑都是由...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=9306870089873933625&order=4&fm=alop&tj=www_normal_4_0_10_title&url_mf_score=5&vit=osres&m=8&cltj=cloud_title&asres=1&nt=wnor&title=JavaScript%E6%95%99%E7%A8%8B-%E5%BB%96%E9%9B%AA%E5%B3%B0%E7%9A%84%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99&dict=30&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=e929a7fccfccb4b6&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_yJR1zWmiEi6ffrcXdNpX8KhVmyPGEywdoTOsR9Jw8Cf_7Ak9RlDqqk7sWwe8nawb4Xuth__SR1Qrglh_ACXSy255rihjftsddR6RK",
+			"pic": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=u200_200&quality=80&sec=1501149154&di=4ee214879cfa586a9cc28fc5db05d325&src=http%3A%2F%2Fi7.baidu.com%2Fit%2Fu%3D3142171992%2C4099346247%26fm%3D78%26s%3D51ADF35A1BE2AECE08E54336030080D5",
+			"title": "JavaScript教程 - 廖雪峰的官方网站"
+		},
+		{
+			"info": "其他人还在搜javascript:void中文javascript与java区别javascript void 0javascript:void(0)",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=9306870089873933625&order=5&fm=alop&tj=9LX_5_0_10_l1&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=d15890a3fb6117ee&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxCGZb8c3JV3T5ABfPNy6R2iv5nk_qva02JcRpX8KgVC4CV5OwdoSRxBx8hyfdO8EpbMgKavsngCd7mznwds7ur1zKC_1Nab2gLb4mDUVul0WcyK1hg2Z8BgUoBl5dnxnkefQueASvadAo81LegGS6ra0_VY_DY5aCmJmjO9oSCZO9DurHaMimrXEiIJvv3tSrGoOB",
+			"pic": "no pic",
+			"title": "no title"
+		},
+		{
+			"info": "JavaScript 被数百万计的网页用来改进设计、验证表单、检测浏览器、创建cookies,以及更多的应用。 JavaScript 是...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=3/tc?ref=www_iphone&lid=9306870089873933625&order=6&fm=alop&tj=www_normal_6_0_10_title&vit=osres&m=8&srd=1&cltj=cloud_title&asres=1&title=JavaScript%E6%95%99%E7%A8%8B&dict=30&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=c5d6c5e805eb77a1&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_zcHATm7ok_rxP4kHRhdXHKhVnGJZpPP",
+			"pic": "no pic",
+			"title": "JavaScript 教程"
+		},
+		{
+			"info": "JavaScript是一种脚本语言,常用于网页客户端编程,使网页在客户端浏览器中,实现更多地动态功能,表现...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=9306870089873933625&order=7&fm=alzd&tj=zhidao_7_0_10_l1&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=a871fb0e0d49a1bc&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IDBqMMS6LLDivpEmixP4kHREsRC0aNWiCGkb8gTCcqBwIwnCh_HhunM5Xu_5ShScq7Emsu_8hgR42UdZ2agAU1N4YST1b9uXem_",
+			"pic": "no pic",
+			"title": "JavaScript是什么_百度知道"
+		},
+		{
+			"info": "看这本书之前,请先确认您对Javascript有个基本的了解,应该知道if else之类的语法,如果不懂,先去看看我第二阶段推荐的Javascript高级程序设计的前三章,记住看三章...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=9306870089873933625&order=8&fm=alop&waplogo=1&tj=www_normal_8_0_10_title&vit=osres&waput=2&cltj=normal_title&asres=1&nt=wnor&title=%E5%A6%82%E4%BD%95%E5%BE%AA%E5%BA%8F%E6%B8%90%E8%BF%9B%E6%9C%89%E6%95%88%E5%9C%B0%E5%AD%A6%E4%B9%A0JavaScript%3F-%E7%9F%A5%E4%B9%8E&dict=-1&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=fff7d8b7c2e0abfa&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IGti0LSVQB8SxokDyqRLuFNFtVjb5LjrIBZSkcz4RtBcC",
+			"pic": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=u200_200&quality=80&sec=1501149154&di=7b087a9b2e82240558d3dba06cb05e1e&src=http%3A%2F%2Fi9.baidu.com%2Fit%2Fu%3D3457898150%2C3090846430%26fm%3D78%26s%3D82B3CC22428053E9A998ED56030050E2",
+			"title": "如何循序渐进、有效地学习JavaScript? - 知乎"
+		},
+		{
+			"info": "\"严格模式\"体现了Javascript更合理、更安全、更严谨的发展方向,包括IE 10在内的主流浏览器,都已经支持它,许多大项目已经开始全面拥抱它。 另一方面,同样的代码,在...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=9306870089873933625&order=9&fm=alop&waplogo=1&tj=www_normal_9_0_10_title&vit=osres&waput=3&cltj=normal_title&asres=1&nt=wnor&title=Javascript%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8F%E8%AF%A6%E8%A7%A3-%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97&dict=-1&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=4e937c88ae3e2898&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_zxF1zSnpEeyhPOlItdnJ7HNMnONJICb9jDOsBwYwk_b0nEobsgKavsngCd7mzmGtriqqcL_QcdCqtZq1sL4V_",
+			"pic": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=u200_200&quality=80&sec=1501149154&di=9cae6e07dc3d0ce53b8fd199d7687252&src=http%3A%2F%2Fi7.baidu.com%2Fit%2Fu%3D1687596684%2C1129012946%26fm%3D78%26s%3DECAA67DBCA501C5D1CC456230300E056",
+			"title": "Javascript 严格模式详解 - 阮一峰的网络日志"
+		},
+		{
+			"info": "英文标题:JavaScript Standards Reference Guide作者: 阮一峰授权方式:创意共享“署名-非商业性使用”许可证重要...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=9306870089873933625&order=10&fm=alop&waplogo=1&tj=www_normal_10_0_10_title&vit=osres&waput=3&cltj=normal_title&asres=1&title=JavaScript%E6%A0%87%E5%87%86%E5%8F%82%E8%80%83%E6%95%99%E7%A8%8B%28alpha%29--JavaScript%E6%A0%87%E5%87%86...&dict=-1&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=105128e4991887b1&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IHBOHNDtXAD3eiY3pbfHlCN6gZz8s0niNHoCb9a",
+			"pic": "no pic",
+			"title": "JavaScript 标准参考教程(alpha) -- JavaScript 标准..."
+		},
+		{
+			"info": "javascript_相关术语",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=8AAE9BC2A7151F5DCDEAE9C5AC6D9F21/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=9306870089873933625&order=11&fm=alop&tj=sigma_celebrity_rela_11_0_10_l1&w_qd=IlPT2AEptyoA_yivHVWgCCAaxhLD&sec=22785&di=ffacdcf8850c5079&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxCGZb8c3JV3T5ABfPNy6R2iv5nk_qva02JcRpX8KgVC4CV5OwdoSRxBx8hyfdO8EpbQV2qBdixmcaaknwdfm2gACAG_1Mag2lQwaHGnV6m_mg7Rwig2Z9F2UoB79K5a37su-7rsXZ7uYs8sbz6GS6rMaAVY4y1GyZnFraZEkJDGDgGO7-sxb2eSVITVaTANOwHoXnqWNHF8Mfqt0q7NFHQQSJzXFj3NOaYBNPEFaDBi5QWqfaTt8g-sOGXkQZzzMn4Sk05HaYgvSCJTsNEMaNzs5xIfOFHhf_IIGGNh6YxgWNGboiDLDIhKliP6ktw9o5FHpD0r4y",
+			"pic": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3816928189,1570213482&fm=58",
+			"title": "javascript_相关术语"
+		}
+	]
+}

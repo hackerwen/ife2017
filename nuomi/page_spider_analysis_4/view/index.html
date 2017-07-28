@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>fakebaidu</title>
+</head>
+<body>
+	<input type="text" placeholder="请输入关键字" id="keyword">
+	<select name="device" id="device">
+	  <option value ="iphone5">iphone5</option>
+	  <option value ="iphone6">iphone6</option>
+	  <option value="ipad">ipad</option>
+	</select>
+	<button>提交</button>
+</body>
+</html>
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"
+  		integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  		crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(function(){
+		$('button').eq(0).on('click',function() {
+			var device = $('#device option:selected').val();
+			var keyword = $('#keyword').val();
+			if(keyword === ""){
+				alert('关键字不能为空')
+				return;
+			}else{
+				console.log(keyword + ' ' + device);
+				$.ajax({
+					type: 'POST',
+					url: 'http://127.0.0.1:8080',
+					data: {
+				        	keyword: keyword,
+				        	device: device,
+				    	  },
+				    //dataType: 'json',
+				    success:function(data) {
+				    	console.log(data);
+				    }
+				})
+			}
+		})
+	})
+
+</script>

@@ -1,0 +1,75 @@
+{
+	"keyword": "http协议",
+	"device": "iphone5",
+	"code": 1,
+	"time": 3941,
+	"msg": "抓取成功",
+	"dataList": [
+		{
+			"info": "简介：超文本传输协议（HTTP，HyperText Transfer Protocol)是互联网上应用最为广泛的一种网络协议。所有的WWW文件都必须遵守这个标准。设计HTTP最初的目的是为了提供一种发布和接收HTML页面的方法。1960年美国人Ted Nelson构思了一种通过计算机处理文本信息的方法，并称之为超文本（hypertext）,这成为了HTTP超文本传输协议标准架构的发展根基。Ted Nelson组织协调万维网协会（World Wide Web Consortium）和互联网工程工作小组（Internet Engineering Task Force ）共同合作研究，最终发布了一系列的RFC，其中著名的RFC 2616定义了HTTP 1.1。",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=8967582289188944239&order=1&waplogo=1&fm=albk&tj=Xv_1_0_10_title&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=24edf042a5441bb5&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IJBOMLikK1De8mVjte4viZQRAWyPqLTrIBU8hsH00sqcDxHOb_GIz7aQRbvEtdzJblyjwdsiE-rHeCBYMygZ6OQOKLGVqp0TMyKkf92xoRtFEUH-dzwPFwtdsbAW4xApty1z-gH39rfKBYpT-ZInCi6iWQ9JWXnPoYa",
+			"pic": "no pic",
+			"title": "HTTP协议_百度百科"
+		},
+		{
+			"info": "HTTP协议是Hyper Text Transfer Protocol(超文本传输协议)的缩写,是用于从万维网(WWW:World Wide Web )服务器传输超文本到本地浏览器的传送协议。 HTTP是一个基于...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=3/tc?ref=www_iphone&lid=8967582289188944239&order=2&fm=alhm&h5ad=1&srd=1&dict=32&tj=h5_mobile_2_0_10_title&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=3d9e9aeb670b8f6b&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_ytK1DK6mlrte4viZQRAUD06OXSMEFDwgTCccQoDlnGi27Im7RFZhOgtfq",
+			"pic": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=60&sec=1501149130&di=79cafa68f7964fcd6b8e40b02fd1d4ed&src=http%3A%2F%2Fi7.baidu.com%2Fit%2Fu%3D4182884670%2C2563002125%26fm%3D78%26s%3D0CF0E012938841435A5515CB0000C0B2",
+			"title": "关于HTTP协议,一篇就够了 - ranyonsue - 博客园"
+		},
+		{
+			"info": "http表示要通过HTTP协议来定位网络资源;host表示合法的Internet主机域名或者IP地址;port指定一个端口号,为空则...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=3/tc?ref=www_iphone&lid=8967582289188944239&order=3&fm=alop&h5ad=1&srd=1&dict=32&tj=www_normal_3_0_10_title&vit=osres&m=8&cltj=cloud_title&asres=1&title=HTTP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3%28%E7%9C%9F%E7%9A%84%E5%BE%88%E7%BB%8F%E5%85%B8%29-Hundre-%E5%8D%9A%E5%AE%A2%E5%9B%AD&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=54530fbdb87ac4c9&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_ytK1DK6mlrte4viZQRAXjaf3CfJZpPPxXCBeMZHdWGdWWQm7RpOrxppsn9hbX8agPq3ghKAGRENeRsw4tv3",
+			"pic": "no pic",
+			"title": "HTTP协议详解(真的很经典) - Hundre - 博客园"
+		},
+		{
+			"info": "HTTP 协议是互联网的基础协议,也是网页开发的必备知识,最新版本 HTTP/2 更是让它成为技术热点。 本文介绍 ...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=8967582289188944239&order=4&fm=alop&waplogo=1&tj=www_normal_4_0_10_title&vit=osres&waput=3&cltj=normal_title&asres=1&title=HTTP%E5%8D%8F%E8%AE%AE%E5%85%A5%E9%97%A8-%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97&dict=-1&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=fec6c0229a57e19c&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_zxF1zSnpEeyhPOlItdnJ7HNMnONJICb9jDOsBcYwk_b28Eobso4aOxqey6ylq",
+			"pic": "no pic",
+			"title": "HTTP 协议入门 - 阮一峰的网络日志"
+		},
+		{
+			"info": "RFC 2616定义了今天普遍使用的一个版本——HTTP 1.1。 HTTP协议(HyperText Transfer Protocol,超文本传输...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=3/tc?ref=www_iphone&lid=8967582289188944239&order=5&fm=alop&tj=www_normal_5_0_10_title&vit=osres&m=8&srd=1&cltj=cloud_title&asres=1&title=%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3HTTP%E5%8D%8F%E8%AE%AE%28%E8%BD%AC%29-%E8%8B%8F%E5%8B%87%E7%9A%84blog-BlogJava&dict=30&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=d1514b4cd5989c2e&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_yxM0T79nFe7xPraFBEsRCn-RWiDCkb8wyPQps-DhC8sQzFpzBAxraxktGEn6SWhuKC",
+			"pic": "no pic",
+			"title": "深入理解HTTP协议(转) - 苏勇的blog - BlogJava"
+		},
+		{
+			"info": "HTTP简介 HTTP协议是Hyper Text Transfer Protocol(超文本传输协议)的缩写,是用于从万维网(WWW:World Wide Web )服务器传输超文本到本地浏览器的传送协议。 HTTP...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=3/tc?ref=www_iphone&lid=8967582289188944239&order=6&fm=alhm&h5ad=1&srd=1&dict=32&tj=h5_mobile_6_0_10_title&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=024b344094974fb3&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_yRR1zShpVjte4viZQRAUnKhVi4GJpOgx7DPhRUEcK",
+			"pic": "no pic",
+			"title": "关于HTTP协议,一篇就够了 - RaphetS - 简书"
+		},
+		{
+			"info": "其他人还在搜http协议面试http协议属于哪一层http协议到底是啥http协议三次握手",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=8967582289188944239&order=7&fm=alop&tj=9LX_7_0_10_l1&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=170a69c3ecf1afc2&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxCGZb8c3JV3T5ABfPNy6R2iv5nk_qva02JcRpX8KgVC4CV5OwdoSRxBx8hyfdO8EpbMo4aOx6pm9q95nwb1bh6h7LL_11zbZ6DgeHIUZhs0qraK1v-3JoP2EoB7scmq38ohcbpR3A6hFfneCCgniysNC1VY46D-yZnWvjB6wFSG0oW4fC-MOfq8weIJbu3dqtJI7FrHRHEia",
+			"pic": "no pic",
+			"title": "no title"
+		},
+		{
+			"info": "Http协议定义了很多与服务器交互的方法,最基本的有4种,分别是GET,POST,PUT,DELETE. 一个URL地址用于描述一个网络上的资源,而HTTP中的GET, POST, PUT, DELETE就...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=3/tc?ref=www_iphone&lid=8967582289188944239&order=8&fm=alop&tj=www_normal_8_0_10_title&vit=osres&m=8&srd=1&cltj=cloud_title&asres=1&nt=wnor&title=HTTP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3-%E4%B8%8D%E5%81%9C%E7%9A%84%E5%A5%8B%E6%96%97-%E5%8D%9A%E5%AE%A2%E5%9B%AD&dict=30&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=24f94fc0c2341c31&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_ytK1DK6mlrte4viZQRAUj06Ln_MJICb9n00sqcHwHOf2mMk6so4g43",
+			"pic": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=u200_200&quality=80&sec=1501149130&di=66d9e1a196e87adf0712f09b21e87a3d&src=http%3A%2F%2Fi9.baidu.com%2Fit%2Fu%3D1673815034%2C221020004%26fm%3D78%26s%3D7C00ED1B114EC6EE424DBDC70000F0B1",
+			"title": "HTTP协议详解 - 不停的奋斗 - 博客园"
+		},
+		{
+			"info": "HTTP 教程 HTTP协议(HyperText Transfer Protocol,超文本传输协议)是因特网上应用最为广泛的一种网络传输协议...",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=8967582289188944239&order=9&fm=alop&waplogo=1&tj=www_normal_9_0_10_title&vit=osres&waput=2&cltj=normal_title&asres=1&title=%E5%8F%82%E8%80%83%3Ahttp%E5%8D%8F%E8%AE%AE-%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B-HTTP%E6%95%99%E7%A8%8B%7C%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B&dict=-1&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=342634b35bcd0838&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IGtiDQCBL0Tj5nk_qva02G1JuUnKhVn3CF6W9sHOKfdtMcSi-RyJrlK",
+			"pic": "no pic",
+			"title": "参考:http协议-菜鸟教程 - HTTP 教程 | 菜鸟教程"
+		},
+		{
+			"info": "TCP HTTP UDP:都是通信协议,也就是通信时所遵守的规则,只有双方按照这个规则“说话”,对方才能理解或为之服务。",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=8967582289188944239&order=10&fm=alop&waplogo=1&tj=www_normal_10_0_10_title&vit=osres&waput=3&cltj=normal_title&asres=1&nt=wnor&title=%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE%3AHTTPTCPUDP-%E6%96%87%E7%AB%A0-%E4%BC%AF%E4%B9%90%E5%9C%A8%E7%BA%BF&dict=30&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=8bb3c11abf496eb5&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IJBaOMmBO0TiwokGyxP4kHREsRGebBCn4ZpPP",
+			"pic": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=u200_200&quality=80&sec=1501149130&di=4a5ed1604096098828903fda904d3dac&src=http%3A%2F%2Fi9.baidu.com%2Fit%2Fu%3D3000024509%2C3920160146%26fm%3D78%26s%3D3112E432728CE51F9BD1D5CA0100E0B3",
+			"title": "通信协议:HTTP、TCP、UDP - 文章 - 伯乐在线"
+		},
+		{
+			"info": "http协议_相关框架",
+			"link": "http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%402%2Csz%401320_2001%2Cta%40iphone_1_9.1_3_601/baiduid=FC46D91B09BC52E68556C62B94E3C014/w=0_10_/t=iphone/l=1/tc?ref=www_iphone&lid=8967582289188944239&order=11&fm=alop&tj=sigma_celebrity_rela_11_0_10_l1&w_qd=IlPT2AEptyoA_yixCFOxng8XR5kN&sec=22785&di=74f3171d1ed0628d&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxCGZb8c3JV3T5ABfPNy6R2iv5nk_qva02JcRpX8KgVC4CV5OwdoSRxBx8hyfdO8EpbMg_a4cman9h8TqsgPuAwMDlSMhyqc10OA_WGnIXo_mg7fxftwtoReI8BGxgyLLntdIguh4Yutke-RyGsHTnrKbMFYTuEFqGmkrk2IFIHyD2DPfDdw8nhC5uGyz93tGvGY7_qnhAEChicAvb73R2L23H5DpzKOfrUgMLVGmIQiFdSaKMXOjioKSpUyU9",
+			"pic": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2341832219,2633783418&fm=58",
+			"title": "http协议_相关框架"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "page_spider_analysis_4",
+  "version": "1.0.0",
+  "description": "1. 学习NodeJS HTTP模块\r 2. 学习NodeJS和本地进程的互动\r 3. 学习NodeJS和mongodb的交互",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "koa2-cors": "^2.0.3",
+    "mongoose": "^4.11.4"
+  }
+}
