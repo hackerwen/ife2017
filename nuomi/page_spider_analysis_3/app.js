@@ -4,33 +4,33 @@ var result = require("./db/db.js")
 var exec = require('child_process').exec;
 var cmdStr = 'phantomjs task.js ';
 
-app.get("/", function(req, res) {
-	// 取得查询关键字
-	var keyword = req.query.keyword;
-	var device = req.query.device;
+app.get("/", function (req, res) {
+    // 取得查询关键字
+    var keyword = req.query.keyword;
+    var device = req.query.device;
 
 
-	// 调用命令行 启动phantomjs
-	exec(cmdStr + keyword + ' ' + device, function(err, stdout, stdin) {
-		if(err){
-			console.error('exec error:'+ err);
-		} else {
-			res.send(JSON.parse(stdout));
-			console.log("抓取完毕并返回,现在开始存入数据库");
-			try{
-				var r = new result(JSON.parse(stdout));
-			} catch(e) {
-				console.log(e);
-			}
-			r.save(function(err, info) {
-				if(err) {
-					console.log('save error');
-				} else {
-					console.log('存入结束')
-				}
-			});
-		}
-	})
+    // 调用命令行 启动phantomjs
+    exec(cmdStr + keyword + ' ' + device, function (err, stdout, stdin) {
+        if (err) {
+            console.error('exec error:' + err);
+        } else {
+            res.send(JSON.parse(stdout));
+            console.log("抓取完毕并返回,现在开始存入数据库");
+            try {
+                var r = new result(JSON.parse(stdout));
+            } catch (e) {
+                console.log(e);
+            }
+            r.save(function (err, info) {
+                if (err) {
+                    console.log('save error');
+                } else {
+                    console.log('存入结束')
+                }
+            });
+        }
+    })
 })
 
 app.listen(8080, function () {

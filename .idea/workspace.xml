@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b32e551-e86e-4f8e-bf0d-353d8407de87" name="Default" comment="insertion sort">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/awaken.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/data_binding_2/es6/Events.js" afterPath="$PROJECT_DIR$/nuomi/data_binding_2/es6/Events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_3/app.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_3/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/app.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/awaken.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/awaken.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_3/config.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_3/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/config.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_3/db/db.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_3/db/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/db/db.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/db/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/data_binding_2/es6/main.js" afterPath="$PROJECT_DIR$/nuomi/data_binding_2/es6/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_1/task.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_1/task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_2/task.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_2/task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_3/task.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_3/task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/task.js" afterPath="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/task.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ife2017.iws" />
@@ -24,62 +36,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/app.js">
+      <file leaf-file-name="stack_isPalindrome.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data Structure/stack_isPalindrome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57831323">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.3147541">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="awaken.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/awaken.js">
+      <file leaf-file-name="stack_define.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data Structure/stack_define.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/task.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pathTest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/pathTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="31" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,12 +93,22 @@
         <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/data/girlimg.json" />
         <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/data/javascript.json" />
         <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/eg.js" />
-        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/task.js" />
-        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/app.js" />
         <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/README.md" />
-        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/awaken.js" />
-        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/task.js" />
+        <option value="$PROJECT_DIR$/Data Structure/stack_deifne.js" />
         <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_4/app.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/task.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/config.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/awaken.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/app.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/config.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/task.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_3/db/db.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_4/db/db.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_2/task.js" />
+        <option value="$PROJECT_DIR$/nuomi/page_spider_analysis_1/task.js" />
+        <option value="$PROJECT_DIR$/nuomi/data_binding_2/es6/main.js" />
+        <option value="$PROJECT_DIR$/nuomi/data_binding_2/es6/Events.js" />
+        <option value="$PROJECT_DIR$/Data Structure/stack_isPalindrome.js" />
       </list>
     </option>
   </component>
@@ -196,10 +180,6 @@
               <option name="myItemId" value="nuomi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page_spider_analysis_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -211,29 +191,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nuomi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page_spider_analysis_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phantomjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ife2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ife2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuomi" />
+              <option name="myItemId" value="Data Structure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,13 +314,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -375,6 +332,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -402,78 +360,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/bin-task9/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="157" column="53" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bin-task9/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state>
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/SelectionSort/SelectionSort.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/SelectionSort/Selection Sort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/InsertionSort/InsertionSort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bin-task8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bin-task9/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="157" column="53" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bin-task9/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state>
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/BubbleSort/BubbleSort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/SelectionSort/SelectionSort.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/SelectionSort/Selection Sort.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -651,15 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_3/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,15 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_3/task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,25 +552,8 @@
         <state>
           <first_editor vertical-scroll-proportion="1.7339902">
             <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_3/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.285714">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_3/db/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +562,24 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/config.js">
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9757786">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structure/sequential mapping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -719,7 +587,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/pathTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/awaken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structure/linklist.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -735,45 +643,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state>
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.9757786">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/awaken.js">
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_3/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <caret line="24" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/phantomjs/task.js">
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_3/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <caret line="13" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/app.js">
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_3/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57831323">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_3/db/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_4/db/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_2/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/page_spider_analysis_1/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/data_binding_2/es6/Events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/data_binding_2/es6/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/data_binding_1/es6/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5573771">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/music_player/js/manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.137705">
+          <caret line="156" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="393" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structure/stack_define.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structure/stack_isPalindrome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3147541">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

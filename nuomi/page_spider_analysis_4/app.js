@@ -6,25 +6,25 @@ const cors = require('koa2-cors');
 const awakePhantom = require('./phantomjs/awaken.js');
 
 
-router.get('/', function(ctx, next) {
-    ctx.body="<h1>see you again</h1>"
+router.get('/', function (ctx, next) {
+    ctx.body = "<h1>see you again</h1>"
 })
 
 router.post('/', async (ctx, next) => {
-	var device = ctx.request.body.device || '',
-		keyword = ctx.request.body.keyword || '';
+    var device = ctx.request.body.device || '',
+        keyword = ctx.request.body.keyword || '';
 
-	var data = await awakePhantom(keyword,device);
-	for(var k in data.dataList){
-		for(var j in data.dataList[k]){
-			if(j === 'pic'){
-				console.log(data.dataList[k][j]);
-			}
-		}
-	}
-	ctx.body = {
-		data:data
-	}
+    var data = await awakePhantom(keyword, device);
+    for (var k in data.dataList) {
+        for (var j in data.dataList[k]) {
+            if (j === 'pic') {
+                console.log(data.dataList[k][j]);
+            }
+        }
+    }
+    ctx.body = {
+        data: data
+    }
 })
 
 
